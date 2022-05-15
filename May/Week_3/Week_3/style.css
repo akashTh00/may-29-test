@@ -1,0 +1,44 @@
+@import url(./variable.css);
+
+body{
+    
+   background: var(--color-black);
+}
+body:hover{
+    background: var(--background-color);
+    height: 100%;
+    width: 100%;
+}
+.container{
+   
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.square {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 90vh;
+    background: var(--square-color);
+    align-items: center;
+    border: 1px solid green;
+  }
+  .circle{
+    height: 70vh;
+    width: 70vh;
+    background:var(--circle-color);
+    border-radius: 70vh;
+    border: 1px solid green;
+  }
+  .square:hover{
+      background: var(--circle-color);
+      border:2px solid black;
+      box-shadow: 2px 5px var(--color-black);
+  }
+  .circle:hover{
+      background: var(--square-color);
+      border: 1px solid var(--color-red);
+      box-shadow: 2px 3px var(--color-black);
+  }
