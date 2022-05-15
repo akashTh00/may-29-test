@@ -1,7 +1,0 @@
-:root{
-   --background-color:linear-gradient(to right, black, blue,red);
-   --square-color:linear-gradient(to right, red, blue,black);
-   --circle-color:linear-gradient(to left,red, blue,black);
-   --color-black:black;
-   --color-red:red;
-}
